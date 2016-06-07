@@ -1,4 +1,5 @@
 
+*{box-sizing: border-box;}
 body{
 
  background-size: cover;
@@ -17,12 +18,12 @@ background-color:transparent;
 li
 {display:inline;
 }
-.Name
+#Name
 {float:left;
-padding-left:10px;
+padding-left:40px;
 font-size:40px;
 font-family:Palatino Linotype, Book Antiqua, Palatino, serif;
-box-sizing: border-box;
+
 color:#0000e6;
 }#Contact
 {float:right;
@@ -45,7 +46,7 @@ margin-right:30px;
 li a
 {
 text-decoration:none;
-font-size:20px;
+font-size:15px;
 color:black;
 font-family:Tahoma, Geneva, sans-serif;
 }
@@ -53,6 +54,7 @@ li a:hover {
     background-color: #e62e00;
 color:white;
 }
+
 
 
 
