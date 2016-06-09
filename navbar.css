@@ -6,15 +6,24 @@ body{
     background-repeat: no-repeat;
 margin:0;
 }
+#Name
+{float:left;
+margin-left:40px;
+margin-top:10px;
+font-size:40px;
+font-family:Palatino Linotype, Book Antiqua, Palatino, serif;
+
+color:#0000e6;}
 nav
  {
     height: 50px;
     width: 100%;
     background-color:transparent;
-  
+  	
     position: relative;
     
 }
+
 nav ul {
     list-style-type: none;
     margin: 0 auto;
@@ -27,28 +36,25 @@ height:50px;
 li
 {display:inline;
 }
-#Name
-{float:left;
-margin-left:40px;
-font-size:40px;
-font-family:Palatino Linotype, Book Antiqua, Palatino, serif;
 
-color:#0000e6;}
 #Home
 {float:left;
 padding:20px 10px 10px 10px;
-margin-left:600px;
+margin-top:10px;
+margin-left:900px;
 margin-right:15px
 }
 
 #About{float:left;
 padding:20px 10px 10px 10px;
+margin-top:10px;
 margin-left:15px;
 margin-right:15px
 }
 #Contact
 {float:left;
 padding:20px 10px 10px 10px;
+margin-top:10px;
 margin-left:15px;
 margin-right:70px;
 
@@ -62,17 +68,22 @@ text-decoration:none;
 font-size:15px;
 color:black;
 font-family:Tahoma, Geneva, sans-serif;
-border:5px solid transparent;
+border:1px solid transparent;
 border-radius:5px;
 }
 li a:hover {
     background-color: #e62e00;
 color:white;
-
-
-
+}
+nav a#Pull
+{display:None;
 }
 @media screen and (max-width: 600px) {
+#Name
+{background:rgba(255,255,255,0.5);
+margin-left:15px;
+margin-bottom:10px;
+}
     nav { 
         height: auto;
     }
@@ -82,35 +93,68 @@ color:white;
         height: auto;
     }
 nav ul li {
-        display:block;
+        
+	position:relative;
     }
-#Name
-{background:rgba(255,255,255,0.5);
-margin-left:15px;
-}
+
 
 #Home
 {float:left;
-clear:left;
 margin-left:15px;
-
-margin-bottom:1px;
+margin-top:60px;
 }
 #About
 {float:left;
 clear:left;
-margin-bottom:1px;
+margin-top:0px;
 }
 #Contact
 {float:left;
 clear:left;
-
+margin-top:0px;
 }
 li a
 {background:rgba(255,255,255,0.5);
 color:black;
 }
 }
+@media only screen and (max-width : 480px) {
+     h3
+{display:none;}
+    nav ul {
+        display: none;
+        height: auto;
+    }
+	 nav a#Pull {
+        display: block;
+        background:rgba(255,255,255,0.5);
+        width: 100%;
+        position: relative;
+	padding:10px;
+font-size:40px;
+font-family:Palatino Linotype, Book Antiqua, Palatino, serif;
+text-decoration:none;
+color:#0000e6;
+    }
+nav a#Pull img
+{float:right;
+margin-right:8px;
+margin-top:12px;
+}
+}
+@media only screen and (max-width : 320px) {
+	nav h3
+{display:none;}
+	nav li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	nav li a {
+		border-bottom: 1px solid #576979;
+	}
+}
+
 
 
 
