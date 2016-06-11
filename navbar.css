@@ -11,7 +11,7 @@ margin:0;
 margin-left:40px;
 margin-top:10px;
 font-size:40px;
-font-family:Palatino Linotype, Book Antiqua, Palatino, serif;
+font-family:Champagne & Limousines Bold Italic,sans-serif;
 
 color:#0000e6;}
 nav
@@ -26,7 +26,7 @@ nav
 
 nav ul {
     list-style-type: none;
-    margin: 0 auto;
+    margin-top: 14px;
     padding: 0;
 position:fixed;
 width:100%;
@@ -39,40 +39,53 @@ li
 
 #Home
 {float:left;
-padding:20px 10px 10px 10px;
-margin-top:10px;
-margin-left:900px;
+padding-top:10px;
+margin-left:750px;
 margin-right:15px
 }
 
+
 #About{float:left;
-padding:20px 10px 10px 10px;
-margin-top:10px;
+
+padding-top:10px;
 margin-left:15px;
 margin-right:15px
 }
 #Contact
 {float:left;
-padding:20px 10px 10px 10px;
-margin-top:10px;
+padding-top:10px;
 margin-left:15px;
-margin-right:70px;
+margin-right:10px;
 
 }
 
 
 li a
 {
-
+padding:10px 10px 10px 10px;
 text-decoration:none;
 font-size:15px;
 color:black;
-font-family:Tahoma, Geneva, sans-serif;
-border:1px solid transparent;
+font-family:Champagne & Limousines,Tahoma, Geneva, sans-serif;
+border:3px solid #ff1ac6;
 border-radius:5px;
 }
+#Homea
+{padding-right:40px;
+}
+#Homei
+{padding-left:20px;
+padding-right:10px;
+}
+#Abouta
+{padding-right:18px;
+}
+#Abouti
+{padding-left:12px;
+padding-right:10px;
+}
 li a:hover {
-    background-color: #e62e00;
+    background-color: #ff1ac6;
 color:white;
 }
 nav a#Pull
@@ -82,7 +95,7 @@ nav a#Pull
 #Name
 {background:rgba(255,255,255,0.5);
 margin-left:15px;
-margin-bottom:10px;
+margin-bottom:20px;
 }
     nav { 
         height: auto;
@@ -90,32 +103,51 @@ margin-bottom:10px;
     nav ul {
         width: 100%;
         display: block;
-        height: auto;
+        height:auto;
     }
-nav ul li {
-        
+nav li {
+       width:50%;
+	float:left;
 	position:relative;
+	background:rgba(255,255,255,0.5);
+border-bottom: 1px solid #576979;
+border-right: 1px solid #576979;
+	
     }
+nav li a
+{ 
+font-size:15px;
+border:1px solid transparent;
+color:black;
 
+}
 
 #Home
-{float:left;
-margin-left:15px;
-margin-top:60px;
+{margin-left:15px;
+margin-top:50px;
+
 }
 #About
-{float:left;
-clear:left;
-margin-top:0px;
+{
+margin-top:1px;
+
 }
 #Contact
-{float:left;
-clear:left;
-margin-top:0px;
+{
+margin-top:1px;
 }
-li a
-{background:rgba(255,255,255,0.5);
-color:black;
+#Homei
+{padding-left:10px;
+}
+#Abouti
+{padding-left:10px;
+}
+#Contacti
+{padding-left:10px;
+padding-right:10px;}
+li a:hover {
+    background-color:transparent;
+color:#990000;
 }
 }
 @media only screen and (max-width : 480px) {
@@ -125,22 +157,37 @@ color:black;
         display: none;
         height: auto;
     }
+
 	 nav a#Pull {
         display: block;
+	position:fixed;
         background:rgba(255,255,255,0.5);
         width: 100%;
-        position: relative;
-	padding:10px;
-font-size:40px;
+        height:50px;
+	
+    }
+nav a#Pull i
+{float:left;
+margin-left:20px;
+margin-right:0px;
+margin-top:5px
+}
+nav a#Pull i.active
+{background-color:blue;
+}
+nav a#Pull em
+{
+
+float:right;
+margin-top:10px;
+margin-right:40px;
+font-size:20px;
+
 font-family:Palatino Linotype, Book Antiqua, Palatino, serif;
 text-decoration:none;
 color:#0000e6;
-    }
-nav a#Pull img
-{float:right;
-margin-right:8px;
-margin-top:12px;
 }
+
 }
 @media only screen and (max-width : 320px) {
 	nav h3
@@ -153,7 +200,9 @@ margin-top:12px;
 	nav li a {
 		border-bottom: 1px solid #576979;
 	}
+
 }
+
 
 
 
