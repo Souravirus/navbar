@@ -1,5 +1,11 @@
 *{box-sizing: border-box;}
 
+@font-face
+{
+	font-family:champagne_limousinesbold;
+	src: url('champagne_limousinesbold.ttf');
+}
+
 body{
 
  background-size: cover;
@@ -11,7 +17,7 @@ margin:0;
 margin-left:40px;
 margin-top:10px;
 font-size:40px;
-font-family:Champagne & Limousines Bold Italic,sans-serif;
+font-family:champagne_limousinesbold;
 
 color:#0000e6;}
 nav
@@ -66,7 +72,7 @@ padding:10px 10px 10px 10px;
 text-decoration:none;
 font-size:15px;
 color:black;
-font-family:Champagne & Limousines,Tahoma, Geneva, sans-serif;
+font-family:champagne_limousinesbold;
 border:3px solid #ff1ac6;
 border-radius:5px;
 }
@@ -183,7 +189,7 @@ margin-top:10px;
 margin-right:40px;
 font-size:20px;
 
-font-family:Palatino Linotype, Book Antiqua, Palatino, serif;
+font-family:champagne_limousinesbold;
 text-decoration:none;
 color:#0000e6;
 }
@@ -201,7 +207,7 @@ color:#0000e6;
 		border-bottom: 1px solid #576979;
 	}
 
-}
+}}
 
 
 
